@@ -15,6 +15,6 @@ TextView receiver_msg;
 receiver_msg=(TextView) findViewById(R.id.received_value_id);
 Intent intent = getIntent();
         String str=intent.getStringExtra("message_key");
-receiver_msg.setText("hello, "+str+"!");
+receiver_msg.setText("hello "+str+"!");
     }
 }
